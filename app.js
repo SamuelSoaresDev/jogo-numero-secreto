@@ -4,10 +4,10 @@ let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 let jogadas = 4;
 
-
+reiniciarJogo();
 
 function nivel() {
-  reiniciarJogo();
+  
   var dificuldade = prompt(
     "Escolha a dificuldade do jogo\nDigite o número referente à dificuldade: \n1 - Fácil\n2 - Médio\n3 - Difícil"
   );
