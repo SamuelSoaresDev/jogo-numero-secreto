@@ -3,7 +3,7 @@ let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 let jogadas = 4;
-exibirTextoNaTela();
+exibirTextoNaTela(tag, texto);
 reiniciarJogo();
 
 function nivel() {
